@@ -49,6 +49,17 @@ The current evaluation results on the Screenspot metric are:
    pip install -r requirements.txt
    ```
 
+## Running Test
+
+   ```bash
+   python testSeePoint.py \
+   --checkpoint sampagon/SeePoint-GroundUI18k-Florence2Large-Epoch3 \
+   --query "Click the paste button" \
+   --image test.png \
+   --output_path testSeePoint.png \
+   --model_size large
+   ```
+
 ## Running Evaluation
    
    ```bash
