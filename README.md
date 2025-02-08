@@ -4,14 +4,15 @@ SeePoint is a lightweight, open vocabulary, pixel coordinate predictor for UI el
 
 ## Overview
 
-SeePoint currently leverages finetuned variants of Microsoft's Florence2 model to accurately predict the location of UI elements based on open-vocabulary queries. The system has been finetuned on two datasets:
+SeePoint currently leverages finetuned variants of Microsoft's Florence2 model to predict the pixel coordinates of UI elements based on open-vocabulary queries. The system has been finetuned on two datasets:
 
-- **Wave-UI Dataset:**  
+- **Wave-UI Dataset:**
+  - Florence2 Base Only  
   - Descriptions Only
   - Instruction, Name, and Description (Even Split)
 
 - **GroundUI-18k Dataset:**  
-  - Finetuned using both the Florence2 Base and Florence2 Large models, with Florence2 Large (trained for 3 epochs) providing significantly better results than Florence2 Base.
+  - Florence2 Base and Large
 
 ## Models & Training
 
@@ -31,7 +32,7 @@ The current evaluation results on the Screenspot metric are:
 | GroundUI18k-Florence2Base (7 epochs)                          | 0.40             | 5               |
 | GroundUI18k-Florence2Large (3 epochs)                         | 0.56             | 3               |
 
-**Note:** Based on these results, finetuning Florence2 Large on the WaveUI dataset using the instruction/name/description split is expected to yield Screenspot scores between 0.6 and 0.7—though this experiment has not been run yet.
+**Note:** Based on these results, finetuning Florence2 Large on the WaveUI dataset using the instruction/name/description split is expected to yield Screenspot scores between 0.6 and 0.7, though this experiment has not been run yet.
 
 ## Installation
 
