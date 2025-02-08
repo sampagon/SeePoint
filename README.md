@@ -7,8 +7,8 @@ SeePoint is a lightweight, open vocabulary, pixel coordinate predictor for UI el
 SeePoint currently leverages finetuned variants of Microsoft's Florence2 model to accurately predict the location of UI elements based on open-vocabulary queries. The system has been finetuned on two datasets:
 
 - **Wave-UI Dataset:**  
-  - **Descriptions Only:** 
-  - **Instruction, Name, and Description (Even Split):**
+  - Descriptions Only
+  - Instruction, Name, and Description (Even Split)
 
 - **GroundUI-18k Dataset:**  
   - Finetuned using both the Florence2 Base and Florence2 Large models, with Florence2 Large (trained for 3 epochs) providing significantly better results than Florence2 Base.
