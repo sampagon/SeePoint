@@ -14,7 +14,7 @@ SeePoint currently leverages finetuned variants of Microsoft's Florence2 model t
 - **GroundUI-18k Dataset:**  
   - Florence2 Base and Large
 
-## Models & Training
+## Models
 
 We have trained several model variants:
 
