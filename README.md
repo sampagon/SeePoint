@@ -57,5 +57,5 @@ The current evaluation results on the Screenspot metric are:
 
 ## Future Work
 
-   Just trying to make this thing as lightweight, fast, and accurate as possible...
+   Just trying to make this thing as lightweight, fast, and accurate as possible...\n
    This will probably require better datasets and better architectures, but you gotta start somewhere.
