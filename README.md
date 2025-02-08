@@ -30,7 +30,7 @@ The current evaluation results on the Screenspot metric are:
 | WaveUI-Description-Florence2Base (6 epochs)                 | 0.34             | 5               |
 | WaveUI-InstructionNameDescription-Florence2Base (7 epochs)  | 0.46             | 5               |
 | GroundUI18k-Florence2Base (7 epochs)                          | 0.40             | 5               |
-| GroundUI18k-Florence2Large (3 epochs)                         | 0.56             | 3               |
+| GroundUI18k-Florence2Large (3 epochs)                         | **0.56**             | 3               |
 
 **Note:** Based on these results, finetuning Florence2 Large on the WaveUI dataset using the instruction/name/description split is expected to yield Screenspot scores between 0.6 and 0.7, though this experiment has not been run yet.
 
